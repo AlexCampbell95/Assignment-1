@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "Assignment1css.css",
+  "sources": [
+    "Assignment1css.scss"
+  ],
+  "mappings": ";AAQA,AAAA,IAAI,CAAC;EACD,gBAAgB,EARb,YAAY,GASlB;;;AACD,AAAA,EAAE,CAAC;EACC,KAAK,EAVA,KAAK;EAWV,WAAW,EARR,iBAAiB,EAAE,KAAK,GAS9B;;;AACD,AAAA,GAAG,CAAC;EACA,YAAY,EAbP,KAAK,GAeb;;;AACD,AAAA,GAAG,CAAC;EACA,YAAY,EAhBN,IAAI,GAiBb",
+  "names": []
+}

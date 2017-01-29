@@ -1,0 +1,22 @@
+//These are my new SCSS variables
+$base: mediumpurple;
+$accent: white;
+$border: solid;
+$padding: 20px;
+$font: "Times New Roman", Serif;
+
+//Classes
+body {
+    background-color: $base;
+}
+h1 {
+    color: $accent;
+    font-family: $font;
+}
+img {
+    border-style: $border;
+        
+}
+nav {
+    padding-left: $padding;
+}
