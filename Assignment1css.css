@@ -1,18 +1,27 @@
-/* line 9, /Users/aec13/Desktop/Assignment 1/Assignment1css.scss */
-body {
+/* line 10, /Users/aec13/Desktop/Assignment 1/Assignment1css.scss */
+body, .special, .cta {
   background-color: mediumpurple; }
 
-/* line 12, /Users/aec13/Desktop/Assignment 1/Assignment1css.scss */
+/* line 13, /Users/aec13/Desktop/Assignment 1/Assignment1css.scss */
 h1 {
-  color: white;
-  font-family: "Times New Roman", Serif; }
+  color: black;
+  font-family: "Times New Roman", Serif bold; }
 
-/* line 16, /Users/aec13/Desktop/Assignment 1/Assignment1css.scss */
+/* line 17, /Users/aec13/Desktop/Assignment 1/Assignment1css.scss */
 img {
   border-style: solid; }
 
-/* line 20, /Users/aec13/Desktop/Assignment 1/Assignment1css.scss */
+/* line 21, /Users/aec13/Desktop/Assignment 1/Assignment1css.scss */
 nav {
   padding-left: 20px; }
+
+/* line 25, /Users/aec13/Desktop/Assignment 1/Assignment1css.scss */
+.special {
+  background-color: green; }
+
+/* line 30, /Users/aec13/Desktop/Assignment 1/Assignment1css.scss */
+.cta {
+  width: 250px;
+  text-align: center; }
 
 /*# sourceMappingURL=Assignment1css.css.map */

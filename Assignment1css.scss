@@ -1,17 +1,20 @@
 //These are my new SCSS variables
 $base: mediumpurple;
-$accent: white;
+$accent: black;
 $border: solid;
 $padding: 20px;
 $font: "Times New Roman", Serif;
+$special: gold;
 
 //Classes
 body {
     background-color: $base;
 }
+
+}
 h1 {
     color: $accent;
-    font-family: $font;
+    font-family: $font bold;
 }
 img {
     border-style: $border;
@@ -19,4 +22,39 @@ img {
 }
 nav {
     padding-left: $padding;
+}
+
+
+@mixin body($padding: 10px, $boxColor: #CC9900){
+    padding: $padding;
+    background-color: $base;
+    margin: 10px;
+    font: $font;
+}
+
+.special{
+    @extend container;
+    background-color: $special;
+    padding-left: $padding;
+}
+
+.cta{
+    @extend container;
+    width: 550px;
+    text-align: left;
+}
+
+.h1 {
+    @include body(50px, 200px, 20px, green);
+
+}
+
+.nav {
+    @include body(200px, 200px, 20px, blue);
+  
+}
+
+.img {
+    @include body(300px, 200px, 50px, pink);
+ 
 }
