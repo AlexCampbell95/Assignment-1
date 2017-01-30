@@ -8,13 +8,12 @@ $special: gold;
 
 //Classes
 body {
-    background-color: $base;
+    background-color: $base lighten;
 }
 
-}
 h1 {
     color: $accent;
-    font-family: $font bold;
+    font-family: $font lighten;
 }
 img {
     border-style: $border;
@@ -25,7 +24,7 @@ nav {
 }
 
 
-@mixin body($padding: 10px, $boxColor: #CC9900){
+@mixin body($padding: 20px, $border: solid){
     padding: $padding;
     background-color: $base;
     margin: 10px;
@@ -45,16 +44,16 @@ nav {
 }
 
 .h1 {
-    @include body(50px, 200px, 20px, green);
+    @include body($padding, $border);
 
 }
 
 .nav {
-    @include body(200px, 200px, 20px, blue);
+    @include body($padding, $border);
   
 }
 
 .img {
-    @include body(300px, 200px, 50px, pink);
+    @include body($padding, $border);
  
 }
